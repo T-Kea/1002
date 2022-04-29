@@ -1,0 +1,776 @@
+
+i{
+	display: inline-block;
+}
+
+
+.search,.weixin,.shop,.admin{
+	background: url('../images/login-logo.png') no-repeat;
+	background-position: -96px -215px;
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 20px;
+
+
+}
+
+
+input{
+	width: 100%;
+    line-height: 44px;
+    padding: 0 10px 0 35px;
+    border: 0 none;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 12px;
+}
+ 
+header .nav .s .find{
+	position: relative;
+	left:213px;
+
+}
+header .search_1{
+	background: url('../images/login-logo.png') no-repeat;
+	background-position:-66px -215px;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	position: absolute;
+	top: 13px;
+	left:11px;
+	
+}
+.current{
+	background: rgba(0,0,0,0.4);
+}
+
+.weixin{
+	background-position: -120px -215px;
+}
+.shop{
+	background-position: -146px -215px;
+
+}
+.admin{
+	background-position:-35px -216px;
+	
+}
+
+.tip{
+	background: #003b66;
+	text-align: center;
+}
+.tip p{
+	color: white;
+	line-height: 22px;
+	font-size: 13px;
+}
+
+
+main{
+	height: 1216px;
+	margin-top: 41px;
+}
+main .center{
+	width: 1190px;
+	margin:auto;
+	background: white;
+	height: 1216px;
+	position: relative;
+}
+main .up{
+	height: 834px;
+}
+main .up .left{
+	width: 680px;
+	height: 834px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+main .up .right{
+	width: 510px;
+	height: 834px;
+	float: left;
+}
+.up .left ul{
+	height: 62px;
+	margin:auto;
+	width: 356px;
+	margin-top: 556px;
+}
+.up .left ul li{
+	float: left;
+	border: 1px solid #e0e0e0;
+	margin-right: 11px;
+	height: 60px;
+}
+.up .left ul li:nth-of-type(5){
+	margin-right: 0px;
+
+}
+.up .left ul img{
+	width: 60px;
+}
+main .up .photo .show1{
+	display: inline-block;
+}
+main .up .photo>img{
+	width: 530px;
+	height: 530px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+main .up .more{
+	position: absolute;
+	margin-left: 75px;
+	background: #f7b499;
+    position: relative;
+}
+main .up .big{
+	position: relative;
+	
+	
+
+}
+main .up .box{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	background: gray;
+	cursor: move;
+	opacity: 0.15;
+	display: none;
+
+}
+main .up .pho{
+	position: absolute;
+	left: 530px;
+	overflow: hidden;
+	width: 530px;
+	height: 530px;
+	background: white;
+	display: none;
+	z-index: 99;
+}
+main .up .pho>img{
+	width: 1060px;
+	height: 1060px;
+	position: relative;
+}
+main .center .logo{
+	margin-top: 26px;
+}
+main .center .collect{
+	width: 134px;
+	border-left: 1px solid #e0e0e0;
+	display: inline-block;
+	margin-left: 20px;
+
+}
+main .center .logo i{
+	display: inline-block;
+	font-style: normal;
+	font-size: 12px;
+	color: #333;
+}
+main .center .logo u{
+	text-decoration: none;
+	font-size: 12px;
+	color: #333;
+	margin-left: 5px;
+}
+main .center span{
+	background:url('../images/detail_sprite.png') no-repeat;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	vertical-align: -4px;
+}
+main .center .QQ{
+	background-position: -20px -66px;
+	margin-left: 10px;
+}
+main .center .WX{
+	background-position: -38px -66px;
+	width: 22px;
+}
+main .center .icon1{
+	background-position: -40px -90px;
+	width: 20px;
+	cursor: pointer;
+	vertical-align: -5px;
+	margin-left: 19px;
+}
+main .center .icon2{
+	background-position: -100px -126px;
+	cursor: pointer;
+	vertical-align: -5px;
+	
+}
+
+main .up .right h2{
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 28px;
+    word-break: break-all;
+    max-height: 54px;
+    font-weight: bold;
+}
+main .up .right .self{
+	font-style: normal;
+	height: 14px;
+    line-height: 14px;
+    padding: 2px 4px;
+    margin: 0 4px 2px 0;
+    vertical-align: middle;
+    font-size: 12px;
+    border: 1px solid #f60;
+    border-radius: 2px;
+    color: #f60;
+}
+main .up .right .protect{
+	color: #f7b499;
+    font-size: 10px;
+    border: 1px #f7b499 solid;
+    padding: 0 2px;
+    border-radius: 2px;
+    font-style: normal;
+}
+main .up .right .txt{
+	color: #f60;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+}
+main>.down{
+	margin-top: 63px;
+	height: 315px;
+	background: pink;
+}
+main .right .section_1{
+	position: relative;
+}
+main .section_1>.up .timer{
+	font-size: 12px;
+	line-height: 34px;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+main .section_1>.up .time{
+	background: url('../images/detail_sprite.png') no-repeat;
+	background-position: -40px -154px;
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    
+}
+main .right .section_1 i{
+	 font-style: normal;
+	 display: inline-block;
+}
+main .right .section_1 .up{
+	height: 34px;
+	background: #ff6600;
+}
+main .right .section_1 .price-wrap{
+	margin-left: 20px;
+	height: 47px;
+
+}
+main .right .section_1 .down{
+	height: 45px;
+	background: #f2f2f2;
+	padding: 19px;
+}
+main .right .section_1 .before{
+	font-size: 18px;
+	color: #f60;
+
+}
+main .right .section_1 .price{
+	font-weight: bold;
+	font-size: 32px;
+	color: #f60;
+	
+}
+main .right .section_1 .dels{
+    color: #999;
+    margin-left: 10px;
+    font-size: 12px;
+    text-decoration: line-through;
+	
+}
+main .right .section_1 .fes{
+	background-color: #ff6600;
+    color: #fff;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 10px;
+    margin: 12px 0 0 10px;
+    vertical-align: top;
+}
+main .right .section_1 p{
+	font-size: 12px;
+    color: #333;
+    vertical-align: super;
+}
+main .right .section_1 a{
+	color: #f60;
+}
+main .section_1 .down .icon_1,main .section_10 .icon_1{
+	width: 18px;
+    height: 18px;
+    background:url('../images/detail_sprite.png') no-repeat;
+    vertical-align: text-bottom;
+    background-position: 1px -164px;
+    cursor: pointer;
+   
+}
+main .down .go{
+	width: 18px;
+    height: 18px;
+    background:url('../images/detail_sprite.png') no-repeat;
+    vertical-align: text-bottom;
+   background-position: -136px -105px;
+    cursor: pointer;
+   
+}
+main .right .section_2{
+	height: 78px;
+	margin-top: 21px;
+	border-bottom: 1px dashed #eeeeee;
+}
+main .right h3{
+	float: left;
+    width: 54px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #999;
+}
+main .right .con{
+	float: left;
+	margin-top: 0px;
+	line-height: 30px;
+}
+main .section_2 .icon3,main .section_2 .icon4{
+	color: #fff;
+    background-color: #f60;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    width: 54px;
+    text-align: center;
+    float: left;
+
+}
+main .section_2 p{
+	display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+    float: left;
+    margin-left: 10px;
+    max-width: 386px;
+}
+main .right .section_3{
+	border-bottom: 1px dashed #eeeeee;
+	height: 19px;
+	padding: 11px 0 11px 0;
+}
+
+main .right .section_3 .con_left,main .right .section_3 .con_right{
+   float: left;
+}
+main .right .section_3 .con_left{
+	border-right: 1px dashed #eeeeee;
+}
+main .right .section_3 .bg1,main .right .section_3 .bg2{
+	background:url('../images/detail_sprite.png') no-repeat;
+	background-position: -48px 0;
+	height: 20px;
+    width: 6px;
+    float: left;
+}
+main .right .section_2 h3,main .right .section_3 h3{
+	line-height: 12px;
+}
+main .right .section_3 .bg2{
+	background-position: -60px 0;
+}
+
+main .right .section_3 .text{
+	float: left;
+    display: inline-block;
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 10px;
+    background-color: #ff784c;
+}
+main .right .section_4{
+	height: 26px;
+	border-bottom: 1px solid #eeeeee;
+	padding: 10px 0px 10px 0px;
+}
+main .right .section_4 li{
+	width: 72px;
+	margin-right: 15px;
+	border:1px solid #90ebae;
+	text-align: center;
+	line-height: 24px;
+	font-size: 11px;
+	float: left;
+	cursor: pointer;
+}
+main .right .section_5{
+	margin-top: 15px;
+	height: 55px;
+
+}
+main .right .section_5 .con{
+	line-height: 37px;
+	border:2px solid #ff6600;
+	font-size: 13px;
+
+}
+main .right .section_5 img{
+	width: 36px;
+	float: left;
+}
+main .right .section_5 .text{
+	display: inline-block;
+	float: left;
+	font-size: 13px;
+	text-decoration: none;
+}
+main .right .section_6{
+	height: 45px;
+}
+main .right .section_6 li{
+	line-height: 28px;
+	font-size: 13px;
+	margin-right: 10px;
+	border:1px solid #d6d6d6;
+	float: left;
+	padding: 0px 7px 0px 7px;
+}
+main .right .section_7{
+	height: 45px;
+
+}
+main .right .section_7 .select{
+	border:none;
+	border:1px solid #d6d6d6;
+	outline: none;
+	float: left;
+	font-size: 11px;
+	padding: 5px 13px 5px 11px;
+
+
+}
+.conn{
+	padding:14px 18px 14px 18px;
+	box-sizing: border-box;
+	min-width: 157px;
+	position: absolute;
+	left:53px;
+	top: 462px;
+	border: 1px solid #d6d6d6;
+	display: none;
+	background: white;
+	
+}
+.conn ul{
+	position: relative;
+}
+.conn li{
+	margin-bottom: 15px;
+	font-size: 12px;
+	padding-left: 15px;
+
+	
+
+}
+.conn li::before{
+  box-sizing: border-box;
+    position: absolute;
+    content:" ";
+    width: 14px;
+    height: 14px;
+    border: 1px solid #D6D6D6;
+    border-radius: 50%;
+    left: -4px;
+
+}
+.conn li:nth-of-type(4){
+	margin-bottom: 0px
+}
+main .right .section_7 .txt{
+	color: black;
+}
+main .right .section_5 h3,main .right .section_7 h3{
+	margin-top: 8px;
+}
+
+main .right .section_7 .time{
+	background:url('../images/detail_sprite.png') no-repeat;
+	height: 18px;
+    width: 18px;
+    background-position: -20px -168px;
+    vertical-align: middle;
+    
+}
+main .right .section_7 .question{
+	background:url('../images/detail_sprite.png') no-repeat;
+	height: 18px;
+    width: 18px;
+    background-position: -40px -168px;
+    margin-left: 6px;
+    position: relative;
+    top: 9px;
+}
+main .right .section_7 .icon7,main .right .section_9 .icon7{
+    background:url('../images/detail_sprite.png') no-repeat;
+    margin-left: 39px;
+    width: 8px;
+    height: 4px;
+    background-position: -60px -117px;
+    cursor: pointer;
+}
+main .right .section_7 .icon8,main .right .section_9 .icon8{
+    background:url('../images/detail_sprite.png') no-repeat;
+    margin-left: 39px;
+    width: 8px;
+    height: 4px;
+    background-position: -60px -110px;
+    cursor: pointer;
+    display: none;
+}
+main .right .section_8{
+	height: 45px;
+	margin-top: 15px;
+}
+main .right .section_8 p{
+	line-height: 28px;
+	width: 25px;
+	border:1px solid #d6d6d6;
+	float: left;
+}
+main .right .section_8 i{
+	background:url('../images/detail_sprite.png') no-repeat;
+	width:11px;
+	height: 11px;
+	margin-left:6px;
+	cursor: pointer;
+}
+main .right .section_8 .minus_1{
+	background-position: -39px -109px;
+}
+main .right .section_8 .plus_1{
+	background-position: -19px -109px;
+}
+main .right .section_8 input{
+	float: left;
+	height: 28px;
+	width: 40px;
+	outline: none;
+	border-bottom: 1px solid #d6d6d6;
+	border-top: 1px solid #d6d6d6;
+}
+main .right .section_9{
+	height: 81px; 
+	font-size: 11px;
+}
+main .right .section_9 .con{
+	line-height: 29px;
+}
+main .right .section_9 p{
+	display: inline-block;
+
+}
+main .right .section_9 .address{
+	display: inline-block;
+	border:1px solid #d6d6d6;
+	font-size: 11px;
+}
+main .right .tab{
+	position: absolute;
+	z-index: 2;
+	top: 556px;
+    left: -146px;
+	width: 439px;
+	border:1px solid #d6d6d6;
+	background: white;
+	display: none;
+}
+main .right .tab .center1{
+	width: 399px;
+	margin:auto;
+}
+main .right .tab .up1{
+	width: 399px;
+	border-bottom: 1px solid #d6d6d6;
+	height: 54px;
+}
+.right .tab .down1>div{
+	display: none;
+}
+.right .tab .down1 .show1{
+	display: inline-block;
+}
+.right .tab .down1 li{
+	float: left;
+	width: 133px;
+	line-height: 34px;
+	font-size: 11px;
+}
+main .right .up1 .icon7{
+	background: url(../images/detail_sprite.png) no-repeat;
+	width: 8px;
+    height: 4px;
+    background-position: -60px -117px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+main .right .up1 .icon8{
+	background: url(../images/detail_sprite.png) no-repeat;
+    width: 8px;
+    height: 4px;
+    background-position: -60px -110px;
+    cursor: pointer;
+    display: none;
+    vertical-align: middle;
+}
+main .right .up1 li{
+	cursor: pointer;
+	line-height: 54px;
+	float: left;
+	margin-right: 22px;
+	font-size: 13px;
+
+
+}
+main .right .section_10{
+	height: 42px;
+	font-size: 11px;
+}
+
+main .section_10 .icon_1{
+	vertical-align: middle;
+	margin-top: -4px;
+}
+main .right .section_11{
+	height: 12px;
+	font-size: 11px;
+}
+main .right .final{
+	color: #FFF;
+	text-align: center;
+	height: 40px;
+	width: 205px;
+	background: #f7b499;
+	margin-top: 36px;
+	border: none;
+	position: relative;
+	left: -126px;
+	/* color: white; */
+	border-radius: 2px;
+
+
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+    border-radius: 5px 5px 5px 5px;
+    padding: 6px 12px;
+}
+main .right .final:hover{
+	background-color: #f7b499; 
+}
+main .right .floor{
+	margin-top: 11px;
+	font-size: 12px;
+}
+main .right .floor .T{
+    display: inline-block;
+	background:url('../images/detail_sprite.png') no-repeat;
+	background-position: 0px -66px;
+	width:18px;
+	height: 18px;
+	position: relative;
+	top: 4px;
+}
+main .center>.down{
+	border:1px solid #e6e6e6;
+	height: 317px;
+	margin-top: 64px;
+
+
+}
+main .center .down .tag{
+	width: 56px;
+	line-height: 19px;
+	color: white;
+	position: absolute;
+	right: 0px;
+	background: #ff6600;
+	top: 0px;
+	font-style: normal;
+	font-size: 11px;
+}
+main .center .down .title{
+	line-height: 57px; 
+	font-size: 15px;
+	padding-left:31px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+main .center .down img{
+	width: 146px;
+}
+main .center .down li{
+	position: relative;
+	width: 146px;
+	height: 192px;
+	float: left;
+	margin-right:69px;
+	text-align: center;
+	margin-top: 30px;
+}
+main .center .down li:nth-of-type(1){
+	margin-left:83px;
+}
+main .center .down p{
+	display:inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: center;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    line-height: 12px;
+    width: 146px;
+}
+main .center .down u{
+	display: inline-block;
+	text-align: center;
+	color: red;
+	text-decoration: none;
+	margin-top:15px;
+	font-size: 9px;
+}
+
+

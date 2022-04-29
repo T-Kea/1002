@@ -1,0 +1,83 @@
+.cart{
+    width: 900px;
+    padding: 0 10px 10px;
+    border: 1px solid #f7b499;
+    margin:0 auto; 
+}
+.cart-title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #f7b499;
+    line-height: 30px;
+    height: 30px;
+    font-weight: 700;
+    text-indent: 15px;
+    color: #333;
+    font-family: 'Microsoft YaHei';}
+table{
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th{   
+    border-bottom: 2px solid #f7b499;  
+    height: 35px;
+    line-height: 23px;
+}
+td{
+    height: 55px;
+    text-align: center;
+}
+.count-input{
+    width: 50px;
+    text-align: center;
+    height: 21px;
+    margin: 5px;
+
+}
+#foot td{
+    height: 30px;
+}
+.reduce{
+    position: relative;
+    left: 5px;
+
+}
+.add{
+    position: relative;
+    right: 5px;
+}
+.reduce:hover,.add:hover{background-color: #f7b499;}
+.reduce,.add{
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background-color: #ccc;
+    color: white;
+    cursor: pointer;
+}
+
+span{
+    cursor: pointer;
+}
+#allPrice{
+    display: inline-block;
+    width: 50px;
+    color: #f09b7a;
+    font-weight: bold;
+}
+tfoot tr td{
+    text-align: right;
+}
+.cart-bottom-btn{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 20px;
+    background: #f7b499;
+    border: 1px solid #f7b499;
+    border-radius: 5px 5px 5px 5px;
+    padding: 6px 12px;}
+.cart-bottom-btn:hover{background: #ee8055;} 
+.cart-subtotal{color: #f09b7a;font-weight: bold;}      

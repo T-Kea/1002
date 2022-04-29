@@ -1,0 +1,63 @@
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.xxxx{
+    width: 250px;  /*w*3+m1*/
+    /* float: left; */
+    margin: 0 10px 0 0;
+    list-style: none;
+    background-color: #FFFFFF;
+    /*处理边框*/
+    margin-top: 10px;
+    height: 370px; /*列表边框*/
+    /*阴影位置， 垂直阴影位置，渐变距离，阴影尺寸，阴影颜色*/
+    /* box-shadow: 0 0 5px 3px #ccc */
+    /*浏览器兼容*/
+    -webkit-box-shadow: 0 0 5px 3px #ccc; /*谷歌浏览器*/
+    -moz-box-shadow: 0 0 5px 3px #ccc; /*火狐浏览器*/
+}
